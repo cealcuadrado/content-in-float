@@ -3,7 +3,12 @@
     <div class="col-12 col-lg-4" *ngFor="let card of cards">
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">{{card.title}}</h3>
+          <div class="text-center">
+            <h6 class="card-title">{{card.title}}</h6>
+          </div>
+          <div class="menu-card float-right">
+            <span class="badge text-white bg-secondary">OT/1</span>
+          </div>
         </div>
         <div class="card-body">
           <p>{{card.content}}</p>

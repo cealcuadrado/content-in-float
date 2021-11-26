@@ -1,0 +1,17 @@
+.card {
+  .card-header {
+    background-color: navy;
+    
+    h6 {
+      color: white;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+  }
+
+  .menu-card {
+    position: absolute;
+    top: .45rem;
+    right: 20px;
+  }
+}
